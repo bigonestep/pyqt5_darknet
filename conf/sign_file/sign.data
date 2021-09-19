@@ -1,0 +1,6 @@
+classes= 4
+#train  = /home/wxc/Documents/dataset/v4data/sign/train.txt
+#valid  = /home/wxc/Documents/dataset/v4data/sign/test.txt
+names = /home/wangzhihui/Document/pyqt5/pyqt5_darknet/conf/sign_file/sign.names
+backup = /home/k/darknet/backup/
+

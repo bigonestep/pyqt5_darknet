@@ -1,0 +1,114 @@
+
+
+net:
+  net0:
+    target_name: person
+    data_file_path: "conf/net1/coco.data"
+    config_file_path: "conf/net1/yolov4-tiny.cfg"
+    weights_path: "db/weights/yolov4-tiny.weights"
+    thresh: 0.5
+
+  # 氧气瓶
+  oxygen_cylinder:
+    target_name: 没帽子 没安全带
+    data_file_path: "conf/height/high_work.data"
+    config_file_path: "conf/height/yolov4-tiny.cfg"
+    weights_path: "conf/height/yolov4-tiny_final.weights"
+    thresh: 0.5
+
+  # 安全帽
+  height:
+    target_name: 没帽子 没安全带
+    data_file_path: "conf/height/high_work.data"
+    config_file_path: "conf/height/yolov4-tiny.cfg"
+    weights_path: "conf/height/yolov4-tiny_final.weights"
+    thresh: 0.5
+
+  # 灭火器
+  fire_extinguisher:
+    target_name: extinguisher
+    data_file_path: "conf/fire_extinguisher/shuitong.data"
+    config_file_path: "conf/fire_extinguisher/yolov4-tiny-shuitong.cfg"
+    weights_path: "conf/fire_extinguisher/yolov4-tiny-shuitong_last.weights"
+    thresh: 0.5
+
+# 焊工鞋
+  shoes:
+    target_name: 有面罩 有手套 有鞋子
+    data_file_path: "conf/mask_shoes/fire_work.data"
+    config_file_path: "conf/mask_shoes/yolov4-tiny.cfg"
+    weights_path: "conf/mask_shoes/yolov4-tiny_final.weights"
+    thresh: 0.5
+
+
+  # 面罩手套鞋子
+  mask_shoes:
+    target_name: 有面罩 有手套 有鞋子
+    data_file_path: "conf/mask_shoes/fire_work.data"
+    config_file_path: "conf/mask_shoes/yolov4-tiny.cfg"
+    weights_path: "conf/mask_shoes/yolov4-tiny_final.weights"
+    thresh: 0.5
+
+  # 安全员
+  person:
+    target_name: 安全员
+    data_file_path: "conf/person/safe-guard.data"
+    config_file_path: "conf/person/yolov4-tiny-safe-guard.cfg"
+    weights_path: "conf/person/yolov4-tiny-safe-guard_last.weights"
+    thresh: 0.5
+
+  # 安全帽 鞋子
+  roller:
+    target_name: 3_helmet_shoes
+    data_file_path: "conf/roller/limited_work.data"
+    config_file_path: "conf/roller/yolov4-tiny.cfg"
+    weights_path: "conf/roller/yolov4-tiny_final.weights"
+    thresh: 0.5
+
+  # 锁
+  sign_file:
+    target_name: 3_sign_lock
+    data_file_path: "conf/sign_file/sign.data"
+    config_file_path: "conf/sign_file/yolov4sign-tiny.cfg"
+    weights_path: "conf/sign_file/yolov4sign-tiny_last.weights"
+    thresh: 0.5
+
+
+
+
+baidu:
+  API_KEY: '4E1BG9lTnlSeIf1NQFlrxxxx'
+  SECRET_KEY: '544ca4657ba8002e3dea3ac2f5fxxxxx'
+
+oxygen_cylinder:
+  oxygen_cylinder_length: 2
+  oxygen_cylinder_distance: 5
+
+
+face:
+  welder_face:
+    face0_path: "/home/wangzhihui/Document/pyqt5/pyqt5_darknet/db/face/1.jpeg"
+    face1_path: "/home/wangzhihui/Document/pyqt5/pyqt5_darknet/db/face/2.jpeg"
+    face2_path: "/home/wangzhihui/Document/pyqt5/pyqt5_darknet/db/face/3.jpeg"
+
+  inspector_face:
+    face0_path: "/home/wangzhihui/Document/pyqt5/pyqt5_darknet/db/face/1.jpeg"
+    face1_path: "/home/wangzhihui/Document/pyqt5/pyqt5_darknet/db/face/2.jpeg"
+    face2_path: "/home/wangzhihui/Document/pyqt5/pyqt5_darknet/db/face/3.jpeg"
+
+
+log_level: INFO
+log_path: "/db/log/"
+
+
+# 多久检测一次安全员
+safer_detect_wait_time: 40  # 单位秒
+# 任务之间等待事件
+conversion_time: 3   # 单位秒
+
+
+
+server_url: http://127.0.0.1:5000/
+
+
+

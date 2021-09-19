@@ -1,0 +1,6 @@
+classes= 4
+train  = /home/dl/darknet/high_pics/train.txt
+valid  = /home/dl/darknet/high_pics/test.txt
+names = /home/wangzhihui/Document/pyqt5/pyqt5_darknet/conf/height/high_work.names
+backup = ./high_pics/backup
+

@@ -1,0 +1,6 @@
+classes= 4
+train  = /home/dl/darknet/limited_work1/train.txt
+valid  = /home/dl/darknet/limited_work1/test.txt
+names = /home/wangzhihui/Document/pyqt5/pyqt5_darknet/conf/roller/limited_work.names
+backup = /home/dl/darknet/limited_work1/backup
+

@@ -1,0 +1,6 @@
+classes= 8
+train  = /home/dl/darknet/fire_pics/train.txt
+valid  = /home/dl/darknet/fire_pics/test.txt
+names = /home/wangzhihui/Document/pyqt5/pyqt5_darknet/conf/mask_shoes/fire_work_zh.names
+backup = ./fire_pics/backup
+

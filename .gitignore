@@ -1,0 +1,8 @@
+.idea
+*/__pycache__
+./db/mp3
+./db/unqualified
+./lib/AppQt/*
+!./lib/AppQt/*.ui
+
+

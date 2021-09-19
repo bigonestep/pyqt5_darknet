@@ -1,0 +1,6 @@
+classes= 2
+train  = /home/dl/darknet/aqy/train.txt
+valid  = /home/dl/darknet/aqy/test.txt
+names = /home/wangzhihui/Document/pyqt5/pyqt5_darknet/conf/person/safe-guard.names
+backup = ./aqy/backup
+
