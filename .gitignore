@@ -10,6 +10,13 @@ __pycache__
 
 /lib/AppQt/* 
 !/lib/AppQt/*.ui
+/db/img/11.jpg
+/db/img/22.jpg
+/db/img/3_jpg.jpg
+/db/img/4.jpg
+/db/img/*png
+
+
 
 
 
