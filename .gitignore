@@ -1,14 +1,16 @@
 .idea
 
-*/__pycache__  
+/*/__pycache__/*  
  
-./db/mp3
+./db/mp3/*
   
-./db/unqualified
+/db/unqualified/*
 
-./db/weights 
+/db/weights/*
 
-./lib/AppQt/* 
+/lib/AppQt/* 
+!/lib/AppQt/*.ui
+
 
 
 
