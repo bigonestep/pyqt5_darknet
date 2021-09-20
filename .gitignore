@@ -1,9 +1,14 @@
 .idea
+
 */__pycache__  
-./db/mp3  
+ 
+./db/mp3
+  
 ./db/unqualified
+
 ./db/weights 
+
 ./lib/AppQt/* 
-!./lib/AppQt/*.ui
+
 
 
